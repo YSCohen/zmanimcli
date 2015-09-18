@@ -1,0 +1,12 @@
+Source: zmanimcli
+Section: utils
+Priority: extra
+Maintainer: Moshe Wagner <moshe.wagner@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: http://zmanimcli.googlecode.com
+
+Package: zmanimcli
+Architecture: any
+Depends: ${misc:Depends}, default-jre
+Description: Jewish halakhic times

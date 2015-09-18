@@ -1,0 +1,11 @@
+zmanimcli (0.01ubuntu1) karmic; urgency=low
+
+  * Karmic version
+
+ -- moshe <moshe.wagner@gmail.com>  Mon, 05 Jul 2010 00:12:12 +0300
+
+zmanimcli (0.01) lucid; urgency=low
+
+  * Initial deb release for zmanimcli
+
+ -- Moshe <moshe.wagner@gmail.com>  Fri, 21 May 2010 23:48:06 +0300

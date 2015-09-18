@@ -1,0 +1,10 @@
+ZmanimCLI - Simple Command Line Interface for KosherJava's Zmanim API. 
+Author: Moshe Wagner (moshe.wagner@gmail.com)
+
+The ZmanimCLI project consists of a small Java program, 'ZmanimCLI.jar', and bash script, 'zmanim' -
+that wrap around KosherJava's Zmanim library (wich may be included in the package), letting you get Jewish Zmanim from the command line.
+
+See 'License.txt' for license information.
+
+To install, run:
+    sudo make install
