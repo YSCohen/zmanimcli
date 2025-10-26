@@ -347,7 +347,14 @@ public class ZmanimCLI {
 
           //TODO - Switch to LGPL zmanimapio closest minute:
             second = gc.get(GregorianCalendar.SECOND);
-            if (second > 30) minute ++;
+            if (second > 30) {
+                if (minute == 59) {
+                    minute = 0;
+                    hour ++;
+                } else {
+                    minute ++;
+                }
+            }
 
             Time =Integer.toString(hour) + ":" +  StringifyTwoDigits(minute);
 
